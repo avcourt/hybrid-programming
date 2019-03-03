@@ -1,0 +1,514 @@
+The pivot is 777
+storeIdx = 48581 in process 2
+rank + partner is 18
+recvsize is 48557 in process 2
+storeIdx = 48557 in process 18
+storeIdx = 48636 in process 20
+storeIdx = 48605 in process 6
+rank + partner is 22
+storeIdx = 48580 in process 4
+rank + partner is 20
+recvsize is 48636 in process 4
+storeIdx = 48632 in process 0
+rank + partner is 16
+storeIdx = 48720 in process 21
+storeIdx = 48585 in process 17
+storeIdx = 48548 in process 3
+rank + partner is 19
+rank - size is 4
+recvsize is 13920 in process 20
+storeIdx = 48537 in process 7
+rank + partner is 23
+rank - size is 2
+recvsize is 13919 in process 18
+storeIdx = 48507 in process 5
+rank + partner is 21
+storeIdx = 48499 in process 1
+rank + partner is 17
+recvsize is 48585 in process 1
+recvsize is 48720 in process 5
+recvsize is 48588 in process 3
+recvsize is 48558 in process 7
+recvsize is 48652 in process 0
+recvsize is 48844 in process 6
+storeIdx = 48588 in process 19
+storeIdx = 48558 in process 23
+rank - size is 3
+rank - size is 7
+recvsize is 13952 in process 19
+recvsize is 13963 in process 23
+rank - size is 1
+rank - size is 5
+recvsize is 13993 in process 21
+recvsize is 14001 in process 17
+storeIdx = 48844 in process 22
+storeIdx = 48652 in process 16
+rank - size is 0
+rank - size is 6
+recvsize is 13895 in process 22
+recvsize is 13868 in process 16
+storeIdx = 48584 in process 14
+rank + partner is 30
+storeIdx = 48424 in process 29
+storeIdx = 48507 in process 10
+rank + partner is 26
+storeIdx = 48504 in process 26
+storeIdx = 48592 in process 12
+rank + partner is 28
+storeIdx = 48661 in process 28
+recvsize is 48504 in process 10
+storeIdx = 48533 in process 25
+recvsize is 48661 in process 12
+storeIdx = 48486 in process 24
+storeIdx = 48418 in process 27
+rank - size is 12
+storeIdx = 48660 in process 8
+rank + partner is 24
+storeIdx = 48496 in process 9
+rank + partner is 25
+storeIdx = 48604 in process 11
+rank + partner is 27
+storeIdx = 48558 in process 13
+rank + partner is 29
+storeIdx = 48529 in process 15
+rank + partner is 31
+rank - size is 10
+recvsize is 13908 in process 28
+recvsize is 48486 in process 8
+recvsize is 48533 in process 9
+recvsize is 48418 in process 11
+recvsize is 48424 in process 13
+recvsize is 48561 in process 15
+recvsize is 48564 in process 14
+storeIdx = 48561 in process 31
+recvsize is 13993 in process 26
+storeIdx = 48564 in process 30
+rank - size is 11
+rank - size is 13
+recvsize is 13942 in process 29
+rank - size is 8
+recvsize is 13840 in process 24
+rank - size is 15
+recvsize is 13971 in process 31
+rank - size is 14
+rank - size is 9
+recvsize is 14004 in process 25
+recvsize is 13916 in process 30
+recvsize is 13896 in process 27
+storeIdx = 27215 in process 18
+rank + partner is 26
+storeIdx = 27313 in process 17
+rank + partner is 25
+storeIdx = 27165 in process 20
+rank + partner is 28
+storeIdx = 27205 in process 21
+rank + partner is 29
+storeIdx = 27254 in process 24
+storeIdx = 27270 in process 23
+rank + partner is 31
+storeIdx = 27246 in process 19
+rank + partner is 27
+storeIdx = 26936 in process 22
+rank + partner is 30
+recvsize is 27344 in process 17
+storeIdx = 27344 in process 25
+rank - size is 17
+recvsize is 603 in process 25
+storeIdx = 52909 in process 3
+rank + partner is 11
+storeIdx = 53252 in process 4
+rank + partner is 12
+storeIdx = 27333 in process 26
+rank - size is 18
+recvsize is 647 in process 26
+recvsize is 27333 in process 18
+storeIdx = 53163 in process 2
+rank + partner is 10
+storeIdx = 53207 in process 7
+rank + partner is 15
+storeIdx = 52761 in process 1
+rank + partner is 9
+storeIdx = 53286 in process 5
+rank + partner is 13
+storeIdx = 53318 in process 6
+rank + partner is 14
+storeIdx = 52888 in process 8
+storeIdx = 27301 in process 27
+rank - size is 19
+recvsize is 618 in process 27
+recvsize is 27301 in process 19
+recvsize is 53140 in process 1
+storeIdx = 27118 in process 28
+rank - size is 20
+storeIdx = 53140 in process 9
+rank - size is 1
+recvsize is 619 in process 28
+recvsize is 44323 in process 9
+recvsize is 52935 in process 2
+recvsize is 27118 in process 20
+storeIdx = 52935 in process 10
+storeIdx = 27406 in process 29
+rank - size is 21
+recvsize is 568 in process 29
+rank - size is 2
+recvsize is 27406 in process 21
+recvsize is 43975 in process 10
+recvsize is 52929 in process 3
+storeIdx = 52929 in process 11
+rank - size is 3
+recvsize is 44227 in process 11
+storeIdx = 27219 in process 30
+rank - size is 22
+recvsize is 615 in process 30
+recvsize is 27219 in process 22
+storeIdx = 27105 in process 16
+rank + partner is 24
+recvsize is 27254 in process 16
+recvsize is 53429 in process 6
+recvsize is 53394 in process 5
+storeIdx = 53264 in process 0
+rank + partner is 8
+rank - size is 16
+recvsize is 611 in process 24
+storeIdx = 53429 in process 14
+rank - size is 6
+recvsize is 52888 in process 0
+storeIdx = 27273 in process 31
+storeIdx = 53394 in process 13
+recvsize is 53176 in process 4
+rank - size is 23
+recvsize is 635 in process 31
+rank - size is 5
+recvsize is 27273 in process 23
+storeIdx = 53176 in process 12
+rank - size is 4
+recvsize is 44131 in process 14
+recvsize is 43941 in process 13
+recvsize is 43964 in process 12
+rank - size is 0
+recvsize is 44020 in process 8
+storeIdx = 52977 in process 15
+rank - size is 7
+recvsize is 52977 in process 7
+recvsize is 43888 in process 15
+storeIdx = 0 in process 25
+rank + partner is 29
+recvsize is 0 in process 25
+storeIdx = 0 in process 27
+rank + partner is 31
+recvsize is 0 in process 27
+storeIdx = 0 in process 31
+rank - size is 27
+recvsize is 1295 in process 31
+storeIdx = 0 in process 30
+rank - size is 26
+recvsize is 1303 in process 30
+storeIdx = 0 in process 24
+rank + partner is 28
+recvsize is 0 in process 24
+storeIdx = 0 in process 29
+rank - size is 25
+recvsize is 1230 in process 29
+storeIdx = 0 in process 28
+rank - size is 24
+recvsize is 1211 in process 28
+storeIdx = 0 in process 26
+rank + partner is 30
+recvsize is 0 in process 26
+storeIdx = 35438 in process 18
+rank + partner is 22
+storeIdx = 35378 in process 16
+rank + partner is 20
+storeIdx = 35601 in process 17
+rank + partner is 21
+storeIdx = 35324 in process 20
+storeIdx = 75993 in process 3
+rank + partner is 7
+recvsize is 35324 in process 16
+storeIdx = 35582 in process 21
+rank - size is 17
+recvsize is 19056 in process 21
+rank - size is 16
+recvsize is 18981 in process 20
+recvsize is 35582 in process 17
+storeIdx = 58203 in process 14
+storeIdx = 35600 in process 23
+storeIdx = 58786 in process 8
+rank + partner is 12
+storeIdx = 35692 in process 19
+rank + partner is 23
+recvsize is 35600 in process 19
+rank - size is 19
+recvsize is 18855 in process 23
+storeIdx = 76349 in process 0
+rank + partner is 4
+storeIdx = 35366 in process 22
+rank - size is 18
+storeIdx = 76170 in process 4
+rank - size is 0
+recvsize is 29803 in process 4
+storeIdx = 76284 in process 2
+rank + partner is 6
+recvsize is 76170 in process 0
+recvsize is 19110 in process 22
+recvsize is 35366 in process 18
+storeIdx = 76921 in process 6
+rank - size is 2
+recvsize is 29814 in process 6
+storeIdx = 76390 in process 5
+recvsize is 76921 in process 2
+storeIdx = 58773 in process 10
+rank + partner is 14
+rank - size is 1
+recvsize is 29813 in process 5
+storeIdx = 76207 in process 7
+rank - size is 3
+recvsize is 29845 in process 7
+storeIdx = 76088 in process 1
+rank + partner is 5
+recvsize is 76390 in process 1
+rank - size is 10
+recvsize is 29278 in process 14
+recvsize is 76207 in process 3
+recvsize is 58203 in process 10
+storeIdx = 58449 in process 15
+storeIdx = 58564 in process 11
+rank + partner is 15
+recvsize is 58449 in process 11
+rank - size is 11
+recvsize is 29756 in process 15
+storeIdx = 58193 in process 13
+storeIdx = 58314 in process 9
+rank + partner is 13
+recvsize is 58193 in process 9
+rank - size is 9
+recvsize is 29898 in process 13
+recvsize is 58697 in process 8
+storeIdx = 58697 in process 12
+rank - size is 8
+recvsize is 29492 in process 12
+storeIdx = 0 in process 24
+rank + partner is 26
+storeIdx = 0 in process 27
+rank - size is 25
+recvsize is 0 in process 27
+storeIdx = 0 in process 25
+rank + partner is 27
+recvsize is 0 in process 25
+storeIdx = 513 in process 31
+rank - size is 29
+recvsize is 1955 in process 31
+storeIdx = 509 in process 30
+rank - size is 28
+recvsize is 1975 in process 30
+storeIdx = 0 in process 26
+rank - size is 24
+recvsize is 0 in process 26
+storeIdx = 455 in process 29
+rank + partner is 31
+recvsize is 513 in process 29
+storeIdx = 484 in process 28
+rank + partner is 30
+recvsize is 509 in process 28
+recvsize is 0 in process 24
+storeIdx = 15029 in process 14
+storeIdx = 27816 in process 4
+rank + partner is 6
+storeIdx = 10456 in process 20
+rank + partner is 22
+storeIdx = 10465 in process 21
+rank + partner is 23
+storeIdx = 10446 in process 23
+rank - size is 21
+recvsize is 27620 in process 23
+storeIdx = 15274 in process 13
+rank + partner is 15
+storeIdx = 28172 in process 5
+rank + partner is 7
+recvsize is 27877 in process 5
+storeIdx = 27877 in process 7
+rank - size is 5
+recvsize is 31931 in process 7
+storeIdx = 27912 in process 6
+rank - size is 4
+recvsize is 32245 in process 6
+recvsize is 27912 in process 4
+recvsize is 14977 in process 13
+recvsize is 10446 in process 21
+recvsize is 10663 in process 20
+storeIdx = 14977 in process 15
+rank - size is 13
+recvsize is 43960 in process 15
+storeIdx = 10663 in process 22
+storeIdx = 14912 in process 12
+rank + partner is 14
+recvsize is 15029 in process 12
+rank - size is 12
+recvsize is 43924 in process 14
+rank - size is 20
+recvsize is 27484 in process 22
+storeIdx = 28796 in process 18
+storeIdx = 28765 in process 16
+rank + partner is 18
+recvsize is 28796 in process 16
+rank - size is 16
+recvsize is 41937 in process 18
+storeIdx = 29065 in process 17
+rank + partner is 19
+storeIdx = 34733 in process 8
+rank + partner is 10
+storeIdx = 29106 in process 19
+recvsize is 29106 in process 17
+rank - size is 17
+recvsize is 42118 in process 19
+storeIdx = 99222 in process 3
+storeIdx = 34507 in process 10
+recvsize is 34507 in process 8
+rank - size is 8
+recvsize is 82750 in process 10
+storeIdx = 34553 in process 9
+rank + partner is 11
+storeIdx = 34447 in process 11
+storeIdx = 99358 in process 0
+rank + partner is 2
+rank - size is 9
+recvsize is 81954 in process 11
+recvsize is 34447 in process 9
+storeIdx = 99855 in process 2
+recvsize is 99855 in process 0
+storeIdx = 99783 in process 1
+rank + partner is 3
+rank - size is 0
+recvsize is 53161 in process 2
+recvsize is 99222 in process 1
+rank - size is 1
+recvsize is 52695 in process 3
+storeIdx = 10976 in process 7
+storeIdx = 16069 in process 20
+rank + partner is 21
+recvsize is 15902 in process 20
+storeIdx = 0 in process 24
+rank + partner is 25
+recvsize is 0 in process 24
+storeIdx = 17964 in process 4
+rank + partner is 5
+storeIdx = 10994 in process 6
+rank + partner is 7
+recvsize is 10976 in process 6
+rank - size is 6
+recvsize is 52979 in process 7
+storeIdx = 15902 in process 21
+rank - size is 20
+recvsize is 5050 in process 21
+storeIdx = 0 in process 25
+rank - size is 24
+recvsize is 0 in process 25
+storeIdx = 17961 in process 5
+rank - size is 4
+recvsize is 37764 in process 5
+recvsize is 17961 in process 4
+storeIdx = 0 in process 26
+rank + partner is 27
+recvsize is 0 in process 26
+storeIdx = 3018 in process 18
+rank + partner is 19
+storeIdx = 0 in process 29
+rank - size is 28
+recvsize is 993 in process 29
+storeIdx = 8176 in process 8
+rank + partner is 9
+storeIdx = 30030 in process 16
+rank + partner is 17
+storeIdx = 0 in process 28
+rank + partner is 29
+recvsize is 0 in process 28
+storeIdx = 21983 in process 12
+rank + partner is 13
+storeIdx = 0 in process 27
+rank - size is 26
+recvsize is 0 in process 27
+recvsize is 22069 in process 12
+storeIdx = 3043 in process 31
+rank - size is 30
+recvsize is 1009 in process 31
+storeIdx = 22069 in process 13
+rank - size is 12
+recvsize is 7958 in process 13
+storeIdx = 3008 in process 30
+rank + partner is 31
+recvsize is 3043 in process 30
+storeIdx = 83807 in process 14
+rank + partner is 15
+recvsize is 7988 in process 8
+recvsize is 30127 in process 16
+storeIdx = 7988 in process 9
+storeIdx = 56032 in process 3
+storeIdx = 30127 in process 17
+rank - size is 8
+recvsize is 61064 in process 9
+rank - size is 16
+recvsize is 27531 in process 17
+storeIdx = 2831 in process 19
+rank - size is 18
+recvsize is 80927 in process 19
+recvsize is 2831 in process 18
+storeIdx = 22790 in process 23
+recvsize is 84291 in process 14
+rank - size is 2
+recvsize is 50187 in process 3
+storeIdx = 56324 in process 2
+rank + partner is 3
+recvsize is 56032 in process 2
+storeIdx = 84291 in process 15
+rank - size is 14
+recvsize is 4013 in process 15
+storeIdx = 22715 in process 22
+rank + partner is 23
+rank - size is 22
+recvsize is 32005 in process 23
+recvsize is 22790 in process 22
+storeIdx = 112680 in process 1
+rank - size is 0
+recvsize is 86253 in process 1
+storeIdx = 112960 in process 0
+rank + partner is 1
+recvsize is 112680 in process 0
+storeIdx = 96265 in process 10
+rank + partner is 11
+storeIdx = 95796 in process 11
+recvsize is 95796 in process 10
+rank - size is 10
+recvsize is 68954 in process 11
+displacement[0] = 0
+displacement[1] = 225640
+displacement[2] = 398218
+displacement[3] = 510574
+displacement[4] = 610402
+displacement[5] = 646327
+displacement[6] = 722179
+displacement[7] = 744149
+displacement[8] = 850028
+displacement[9] = 866192
+displacement[10] = 988268
+displacement[11] = 1180329
+displacement[12] = 1318007
+displacement[13] = 1362059
+displacement[14] = 1378199
+displacement[15] = 1546297
+displacement[16] = 1554310
+displacement[17] = 1614467
+displacement[18] = 1670042
+displacement[19] = 1675891
+displacement[20] = 1838291
+displacement[21] = 1870262
+displacement[22] = 1880321
+displacement[23] = 1925826
+displacement[24] = 1990013
+displacement[25] = 1990013
+displacement[26] = 1990013
+displacement[27] = 1990013
+displacement[28] = 1990013
+displacement[29] = 1990013
+displacement[30] = 1991974
+displacement[31] = 1998025
+Time required was 0.794637 seconds

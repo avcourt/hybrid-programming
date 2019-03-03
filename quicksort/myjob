@@ -3,6 +3,6 @@
 #$ -o /dev/null
 #$ -e /dev/null
 # Set the number of processes here:
-#$ -pe mpi 4
+#$ -pe mpi 32 
 # Change the name of the execuatable here:
 mpirun ./quicksort > output.txt
