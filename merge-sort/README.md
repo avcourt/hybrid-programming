@@ -16,3 +16,12 @@ Techniques and Applications, CSREA Press, 2011, pp. 367-373).
 
 
 This project is open source, per the [GNU GPL](http://www.gnu.org/licenses/gpl.html) license.
+
+### RUN
+
+`$ make`
+
+#### MPI
+
+`$ mpirun -np<NP> ./mpi_mergesort <arrray-size>`
+
