@@ -1,0 +1,6 @@
+-MPI Recursive Mergesort-	
+Array size = 1024
+Processes = 1
+Start = 3465499.01
+End = 3465499.01
+Elapsed = 0.00
