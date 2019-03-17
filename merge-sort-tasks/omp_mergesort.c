@@ -4,7 +4,7 @@
 #include <omp.h>
 
 // Arrays size <= SMALL switches to insertion sort
-#define SMALL    32
+#define SMALL  16
 
 extern double get_time(void);
 
@@ -18,11 +18,11 @@ void mergesort_parallel_omp(int a[], int size, int temp[], int threads);
 
 void run_omp(int a[], int size, int temp[], int threads);
 
-int main(int argc, char *argv[]);
 
-int
-main(int argc, char *argv[]) {
-    puts("-OpenMP Recursive Mergesort-\t");
+
+
+int main(int argc, char *argv[]) {
+//    puts("-OpenMP Recursive Mergesort-\t");
     // Check arguments
     if (argc != 3)        /* argc must be 3 for proper execution! */
     {
@@ -39,12 +39,10 @@ main(int argc, char *argv[]) {
     }
     // Check processors and threads
     int processors = omp_get_num_procs();    // Available processors
-    printf("Array size = %d\nProcesses = %d\nProcessors = %d\n",
-           size, threads, processors);
+//    printf("Array size = %d\nProcesses = %d\nProcessors = %d\n", size, threads, processors);
+
     if (threads > processors) {
-        printf
-                ("Warning: %d threads requested, will run_omp on %d processors available\n",
-                 threads, processors);
+        printf("Warning: %d threads requested, will run_omp on %d processors available\n",threads, processors);
         omp_set_num_threads(threads);
     }
     int max_threads = omp_get_max_threads();    // Max available threads
@@ -67,13 +65,14 @@ main(int argc, char *argv[]) {
     for (i = 0; i < size; i++) {
         a[i] = rand() % size;
     }
-    // Sort
+
+    // run sort and get time
     double start = get_time();
     run_omp(a, size, temp, threads);
     double end = get_time();
-    printf("Start = %.2f\nEnd = %.2f\nElapsed = %.2f\n",
-           start, end, end - start);
-    // Result check
+    printf("%.4f\n", end - start);
+
+    // check sorted
     for (i = 1; i < size; i++) {
         if (!(a[i - 1] <= a[i])) {
             printf("Implementation error: a[%d]=%d > a[%d]=%d\n", i - 1,
@@ -81,53 +80,48 @@ main(int argc, char *argv[]) {
             return 1;
         }
     }
-    puts("-Success-");
     return 0;
 }
 
 // Driver
-void
-run_omp(int a[], int size, int temp[], int threads) {
-    // Enable nested parallelism, if available
-    omp_set_nested(1);
-    // Parallel mergesort
+void run_omp(int a[], int size, int temp[], int threads) {
+    omp_set_nested(1); // Enable nested parallelism, if available
     mergesort_parallel_omp(a, size, temp, threads);
 }
 
 // OpenMP merge sort with given number of threads
-void
-mergesort_parallel_omp(int a[], int size, int temp[], int threads) {
+void mergesort_parallel_omp(int a[], int size, int temp[], int threads) {
     if (threads == 1) {
-//        printf("Thread %d begins serial merge sort\n", omp_get_thread_num());
         mergesort_serial(a, size, temp);
-    } else if (threads > 1) {
-    #pragma omp parallel sections
-        {
-//            printf("Thread %d begins recursive section\n", omp_get_thread_num());
-    #pragma omp section
+    }
+    else if (threads > 1) {
+        #pragma omp parallel
             {
-//                printf("Thread %d begins recursive call\n", omp_get_thread_num());
-                mergesort_parallel_omp(a, size / 2, temp, threads / 2);
-            }
-    #pragma omp section
-            {
-//                printf("Thread %d begins recursive call\n", omp_get_thread_num());
-                mergesort_parallel_omp(a + size / 2, size - size / 2,
-                                       temp + size / 2, threads - threads / 2);
+            #pragma omp single nowait
+                {
+                #pragma omp task
+                    {
+                    mergesort_parallel_omp(a, size / 2, temp, threads / 2);
+                }
+                 #pragma omp task
+                 {
+                    mergesort_parallel_omp(a + size / 2, size - size / 2,
+                                           temp + size / 2, threads - threads / 2);
+                }
+                #pragma omp taskwait
+                {
+                    merge(a, size, temp);
+                }
             }
         }
-        // Thread allocation is implementation dependent
-        // Some threads can execute multiple sections while others are idle
-        // Merge the two sorted sub-arrays through temp
-        merge(a, size, temp);
-    } else {
+    }
+    else {
         printf("Error: %d threads\n", threads);
         return;
     }
 }
 
-void
-mergesort_serial(int a[], int size, int temp[]) {
+void mergesort_serial(int a[], int size, int temp[]) {
     // Switch to insertion sort for small arrays
     if (size <= SMALL) {
         insertion_sort(a, size);
@@ -139,8 +133,7 @@ mergesort_serial(int a[], int size, int temp[]) {
     merge(a, size, temp);
 }
 
-void
-merge(int a[], int size, int temp[]) {
+void merge(int a[], int size, int temp[]) {
     int i1 = 0;
     int i2 = size / 2;
     int tempi = 0;
@@ -168,8 +161,7 @@ merge(int a[], int size, int temp[]) {
     memcpy(a, temp, size * sizeof(int));
 }
 
-void
-insertion_sort(int a[], int size) {
+void insertion_sort(int a[], int size) {
     int i;
     for (i = 0; i < size; i++) {
         int j, v = a[i];
