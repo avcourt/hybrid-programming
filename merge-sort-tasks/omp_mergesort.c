@@ -26,7 +26,7 @@ int main(int argc, char *argv[]) {
     // Check arguments
     if (argc != 3)        /* argc must be 3 for proper execution! */
     {
-        printf("Usage: %s array-size number-of-threads\n", argv[0]);
+        printf("Usage: %s array_size num_threads\n", argv[0]);
         return 1;
     }
     // Get arguments
@@ -75,7 +75,7 @@ int main(int argc, char *argv[]) {
     // check sorted
     for (i = 1; i < size; i++) {
         if (!(a[i - 1] <= a[i])) {
-            printf("Implementation error: a[%d]=%d > a[%d]=%d\n", i - 1,
+            printf("Error: final array not sorted => a[%d]=%d > a[%d]=%d\n", i - 1,
                    a[i - 1], i, a[i]);
             return 1;
         }
@@ -83,7 +83,7 @@ int main(int argc, char *argv[]) {
     return 0;
 }
 
-// Driver
+
 void run_omp(int a[], int size, int temp[], int threads) {
     omp_set_nested(1); // Enable nested parallelism, if available
     mergesort_parallel_omp(a, size, temp, threads);
@@ -121,6 +121,7 @@ void mergesort_parallel_omp(int a[], int size, int temp[], int threads) {
     }
 }
 
+// only called if num_threads = 1
 void mergesort_serial(int a[], int size, int temp[]) {
     // Switch to insertion sort for small arrays
     if (size <= SMALL) {
