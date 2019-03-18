@@ -10,14 +10,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b5f3b26-56d0-46a5-ac68-ea68b3d44646" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/omp-tasks-16-128.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/omp-tasks-16-256.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/omp-tasks-16-32.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/omp-tasks-16-64.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/omp-tasks-2-256.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/omp-tasks-2-32.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/omp-tasks-32-128.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/omp-tasks-32-256.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/omp-tasks-32-64.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/omp-tasks-4-256.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/omp-tasks-4-32.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/omp-tasks-8-256.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/omp-tasks-8-32.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../merge-sort-sections/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../merge-sort-sections/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../merge-sort-sections/omp_mergesort" beforeDir="false" afterPath="$PROJECT_DIR$/../merge-sort-sections/omp_mergesort" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../merge-sort-sections/omp_mergesort.c" beforeDir="false" afterPath="$PROJECT_DIR$/../merge-sort-sections/omp_mergesort.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../merge-sort-sections/run-experiments.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../merge-sort-sections/run-experiments.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190317-16.txt" beforeDir="false" afterPath="$PROJECT_DIR$/omp-tasks-16-16.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190317-8.txt" beforeDir="false" afterPath="$PROJECT_DIR$/omp-tasks-8-16.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../merge-sort/.idea/encodings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../merge-sort/.idea/merge-sort.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../merge-sort/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../merge-sort/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../merge-sort/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../merge-sort/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../merge-sort/omp_mergesort" beforeDir="false" afterPath="$PROJECT_DIR$/../merge-sort/omp_mergesort" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../merge-sort/omp_mergesort.c" beforeDir="false" afterPath="$PROJECT_DIR$/../merge-sort/omp_mergesort.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../merge-sort/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../merge-sort/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../merge-sort/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../merge-sort/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../merge-sort/get_time.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../merge-sort/get_time.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../merge-sort/hybrid_mergesort" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../merge-sort/hybrid_mergesort.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../merge-sort/mpi_job" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../merge-sort/mpi_mergesort" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../merge-sort/mpi_mergesort.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../merge-sort/mpi_output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../merge-sort/omp_mergesort" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../merge-sort/omp_mergesort.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../merge-sort/perf-test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../merge-sort/serial_mergesort" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../merge-sort/serial_mergesort.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../merge-sort/test-results.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,30 +62,77 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Makefile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/omp_mergesort.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="114">
+              <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/run-experiments.sh">
+        <entry file="file://$PROJECT_DIR$/omp-tasks-32-32.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+            <state relative-caret-position="60">
+              <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/omp-tasks-16-128.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/omp-tasks-8-32.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/omp-tasks-32-256.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/omp-tasks-32-128.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/run-experiments.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="30" column="4" lean-forward="true" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/omp-tasks-2-16.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="4" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/omp-tasks-32-16.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/omp-tasks-4-16.txt">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -70,8 +151,11 @@
       <list>
         <option value="$PROJECT_DIR$/hybrid_mergesort.c" />
         <option value="$PROJECT_DIR$/Makefile" />
-        <option value="$PROJECT_DIR$/run-experiments.sh" />
+        <option value="$PROJECT_DIR$/omp-tasks-32-256.txt" />
+        <option value="$PROJECT_DIR$/omp-tasks-32-32.txt" />
+        <option value="$PROJECT_DIR$/omp-tasks-32-16.txt" />
         <option value="$PROJECT_DIR$/omp_mergesort.c" />
+        <option value="$PROJECT_DIR$/run-experiments.sh" />
       </list>
     </option>
   </component>
@@ -132,12 +216,12 @@
       <workItem from="1552170446094" duration="1142000" />
       <workItem from="1552171602846" duration="520000" />
       <workItem from="1552765968374" duration="2819000" />
-      <workItem from="1552848759254" duration="4569000" />
+      <workItem from="1552848759254" duration="14617000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9050000" />
+    <option name="totallyTimeSpent" value="19098000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="32" width="1280" height="1413" extended-state="4" />
@@ -177,13 +261,6 @@
     <entry file="file://$PROJECT_DIR$/20190317-5.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/run-experiments.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Makefile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -191,10 +268,72 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/omp-tasks-4-32.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/omp-tasks-2-256.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/omp-tasks-4-256.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/omp-tasks-8-256.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/omp-tasks-16-256.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/omp-tasks-32-128.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/omp-tasks-8-32.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/omp-tasks-4-16.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/omp-tasks-16-128.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/omp-tasks-2-16.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="4" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/omp-tasks-32-256.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/omp-tasks-32-32.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/omp-tasks-32-16.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/omp_mergesort.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="114">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run-experiments.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="4" lean-forward="true" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
         </state>
       </provider>
     </entry>
