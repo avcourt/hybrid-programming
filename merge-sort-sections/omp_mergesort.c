@@ -5,7 +5,7 @@
 #include <omp.h>
 
 // Arrays size <= SMALL switches to insertion sort
-#define SMALL  128
+#define SMALL  1024
 
 extern double get_time(void);
 
