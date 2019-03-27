@@ -1,11 +1,10 @@
-
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
 #include <omp.h>
 
 // Arrays size <= SMALL switches to insertion sort
-#define SMALL  1024
+#define SMALL  32
 
 extern double get_time(void);
 
