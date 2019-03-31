@@ -9,9 +9,35 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b5f3b26-56d0-46a5-ac68-ea68b3d44646" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hybrid_mergesort.c" beforeDir="false" afterPath="$PROJECT_DIR$/hybrid_mergesort.c" afterDir="false" />
+    <list default="true" id="4877c224-3913-4ef8-857d-c60c96813e40" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../merge-sort-tasks/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../merge-sort-tasks/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../merge-sort-tasks/20190317-16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../merge-sort-tasks/20190317-8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../merge-sort-tasks/omp_mergesort" beforeDir="false" afterPath="$PROJECT_DIR$/../merge-sort-tasks/omp_mergesort" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../merge-sort-tasks/omp_mergesort.c" beforeDir="false" afterPath="$PROJECT_DIR$/../merge-sort-tasks/omp_mergesort.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../merge-sort-tasks/run-experiments.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../merge-sort-tasks/run-experiments.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/merge-sort.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/get_time.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/get_time.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hybrid_mergesort" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hybrid_mergesort.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mpi_job" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mpi_mergesort" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mpi_mergesort.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mpi_output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omp_mergesort" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omp_mergesort.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/perf-test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/serial_mergesort" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/serial_mergesort.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-results.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,74 +46,45 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hybrid_mergesort.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2820">
-              <caret line="188" column="33" selection-start-line="188" selection-start-column="33" selection-end-line="188" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Makefile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>gupc</find>
-      <find>gup</find>
-    </findStrings>
+    <leaf />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/hybrid_mergesort.c" />
-        <option value="$PROJECT_DIR$/Makefile" />
+        <option value="$PROJECT_DIR$/run-experiments.sh" />
+        <option value="$PROJECT_DIR$/omp_mergesort.c" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="4">
     <option name="x" value="1280" />
-    <option name="y" value="32" />
-    <option name="width" value="1280" />
+    <option name="y" value="27" />
+    <option name="width" value="1270" />
     <option name="height" value="1413" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane" />
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="merge-sort" type="b2602c69:ProjectViewProjectNode" />
-              <item name="merge-sort" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../merge-sort-sections" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -106,25 +103,28 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6b5f3b26-56d0-46a5-ac68-ea68b3d44646" name="Default Changelist" comment="" />
-      <created>1552170444979</created>
+      <changelist id="4877c224-3913-4ef8-857d-c60c96813e40" name="Default Changelist" comment="" />
+      <created>1552868455762</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1552170444979</updated>
-      <workItem from="1552170446094" duration="1142000" />
-      <workItem from="1552171602846" duration="520000" />
+      <updated>1552868455762</updated>
+      <workItem from="1552868456937" duration="7293000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1662000" />
+    <option name="totallyTimeSpent" value="7293000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1280" y="32" width="1280" height="1413" extended-state="4" />
+    <frame x="1280" y="27" width="1270" height="1413" extended-state="4" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21069692" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32942098" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -132,31 +132,57 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32942098" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/hybrid_mergesort.c">
+    <entry file="file://$PROJECT_DIR$/mpi_mergesort.c">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/omp-sections-8-64.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/omp-sections-16-64.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/omp-sections-4-64.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/omp-sections-2-64.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/omp-sections-16-32.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run-experiments.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2820">
-          <caret line="188" column="33" selection-start-line="188" selection-start-column="33" selection-end-line="188" selection-end-column="33" />
+        <state relative-caret-position="420">
+          <caret line="28" column="4" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Makefile">
+    <entry file="file://$PROJECT_DIR$/omp-sections-8-32.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/omp-sections-4-128.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/omp-sections-16-128.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/omp-sections-8-128.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/omp_mergesort.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        <state relative-caret-position="-1515">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
         </state>
       </provider>
     </entry>

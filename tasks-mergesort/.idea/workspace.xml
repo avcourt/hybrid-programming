@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6b5f3b26-56d0-46a5-ac68-ea68b3d44646" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../merge-sort-sections/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../merge-sort-sections/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omp_mergesort" beforeDir="false" afterPath="$PROJECT_DIR$/omp_mergesort" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omp_mergesort.c" beforeDir="false" afterPath="$PROJECT_DIR$/omp_mergesort.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run-experiments.sh" beforeDir="false" afterPath="$PROJECT_DIR$/run-experiments.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../merge-sort/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../merge-sort/.idea/merge-sort.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../merge-sort/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../merge-sort/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../merge-sort/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../merge-sort/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../merge-sort/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../merge-sort/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../merge-sort/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../merge-sort/get_time.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../merge-sort/get_time.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../merge-sort/hybrid_mergesort" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../merge-sort/hybrid_mergesort.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../merge-sort/mpi_job" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../merge-sort/mpi_mergesort" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../merge-sort/mpi_mergesort.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../merge-sort/mpi_output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../merge-sort/omp_mergesort" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../merge-sort/omp_mergesort.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../merge-sort/perf-test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../merge-sort/serial_mergesort" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../merge-sort/serial_mergesort.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../merge-sort/test-results.txt" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/omp_mergesort.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="870">
+              <caret line="58" column="17" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/run-experiments.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/experiments/omp-tasks-2-64.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/experiments/omp-tasks-4-64.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>gupc</find>
+      <find>gup</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/hybrid_mergesort.c" />
+        <option value="$PROJECT_DIR$/Makefile" />
+        <option value="$PROJECT_DIR$/omp-tasks-32-256.txt" />
+        <option value="$PROJECT_DIR$/omp-tasks-32-32.txt" />
+        <option value="$PROJECT_DIR$/omp-tasks-32-16.txt" />
+        <option value="$PROJECT_DIR$/omp_mergesort.c" />
+        <option value="$PROJECT_DIR$/run-experiments.sh" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="4">
+    <option name="x" value="1088" />
+    <option name="y" value="27" />
+    <option name="width" value="1280" />
+    <option name="height" value="1413" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="merge-sort-tasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="merge-sort-tasks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="merge-sort-tasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="merge-sort-tasks" type="462c0819:PsiDirectoryNode" />
+              <item name="experiments" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/experiments" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6b5f3b26-56d0-46a5-ac68-ea68b3d44646" name="Default Changelist" comment="" />
+      <created>1552170444979</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1552170444979</updated>
+      <workItem from="1552170446094" duration="1142000" />
+      <workItem from="1552171602846" duration="520000" />
+      <workItem from="1552765968374" duration="2819000" />
+      <workItem from="1552848759254" duration="16567000" />
+      <workItem from="1553626625198" duration="1858000" />
+      <workItem from="1553740620941" duration="99000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="23005000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1088" y="27" width="1280" height="1413" extended-state="4" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23419774" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.20500782" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/hybrid_mergesort.c" />
+    <entry file="file://$PROJECT_DIR$/20190317T141901.txt" />
+    <entry file="file://$PROJECT_DIR$/20190317-2.txt" />
+    <entry file="file://$PROJECT_DIR$/20190317-5.txt" />
+    <entry file="file://$PROJECT_DIR$/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/omp-tasks-4-32.txt" />
+    <entry file="file://$PROJECT_DIR$/omp-tasks-8-32.txt" />
+    <entry file="file://$PROJECT_DIR$/omp-tasks-4-16.txt" />
+    <entry file="file://$PROJECT_DIR$/omp-tasks-16-128.txt" />
+    <entry file="file://$PROJECT_DIR$/omp-tasks-2-16.txt" />
+    <entry file="file://$PROJECT_DIR$/omp-tasks-32-32.txt" />
+    <entry file="file://$PROJECT_DIR$/omp-tasks-32-16.txt" />
+    <entry file="file://$PROJECT_DIR$/omp-tasks-32-128.txt" />
+    <entry file="file://$PROJECT_DIR$/omp-tasks-8-256.txt" />
+    <entry file="file://$PROJECT_DIR$/omp-tasks-32-256.txt" />
+    <entry file="file://$PROJECT_DIR$/omp-tasks-2-256.txt" />
+    <entry file="file://$PROJECT_DIR$/omp-tasks-4-256.txt" />
+    <entry file="file://$PROJECT_DIR$/omp-tasks-16-256.txt" />
+    <entry file="file://$PROJECT_DIR$/omp_mergesort.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="58" column="17" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run-experiments.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiments/omp-tasks-2-64.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiments/omp-tasks-4-64.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+</project>
