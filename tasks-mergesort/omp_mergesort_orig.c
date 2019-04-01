@@ -14,7 +14,7 @@ void insertion_sort(int a[], int size);
 
 void mergesort_serial(int a[], int size, int temp[]);
 
-void mergesort_parallel_omp(int a[], int size, int temp[], int threads);
+void mergesort_parallel_omp(int a[], int size, int temp[]);
 
 void run_omp(int a[], int size, int temp[], int threads);
 
@@ -85,27 +85,28 @@ int main(int argc, char *argv[]) {
 
 void run_omp(int a[], int size, int temp[], int threads) {
     omp_set_nested(1); // Enable nested parallelism, if available
-    mergesort_parallel_omp(a, size, temp, threads);
+    mergesort_parallel_omp(a, size, temp);
 }
 
 // OpenMP merge sort with given number of threads
-void mergesort_parallel_omp(int a[], int size, int temp[], int threads) {
-    if (threads == 1) {
-        mergesort_serial(a, size, temp);
+void mergesort_parallel_omp(int a[], int size, int temp[]) {
+    if (size <= SMALL) {
+                insertion_sort(a, size);
+        return;
     }
-    else if (threads > 1) {
+    else {
         #pragma omp parallel
         {
             #pragma omp single nowait
             {
                 #pragma omp task
                 {
-                    mergesort_parallel_omp(a, size / 2, temp, threads / 2);
+                    mergesort_parallel_omp(a, size / 2, temp);
                 }
                 #pragma omp task
               	{
                 		mergesort_parallel_omp(a + size / 2, size - size / 2,
-                                           temp + size / 2, threads - threads / 2);
+                                           temp + size / 2);
                 }
 		#pragma omp taskwait
                 {
@@ -113,10 +114,6 @@ void mergesort_parallel_omp(int a[], int size, int temp[], int threads) {
                 }
             }
         }
-    }
-    else {
-        printf("Error: %d threads\n", threads);
-        return;
     }
 }
 

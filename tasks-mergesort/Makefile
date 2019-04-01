@@ -25,6 +25,9 @@ get_time.o: get_time.c
 omp_mergesort: omp_mergesort.c get_time.o
 	$(CC) $(CFLAGS) $(OMPFLAGS) $^ -o $@ $(LDFLAGS)
 
+omp_mergesort2: omp_mergesort2.c get_time.o
+	$(CC) $(CFLAGS) $(OMPFLAGS) $^ -o $@ $(LDFLAGS)
+
 clean:
 	@- rm -f get_time.o
 	@- rm -f $(ALL) tags
