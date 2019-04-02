@@ -9,7 +9,7 @@
 #endif
 
 // Arrays size <= SMALL switches to insertion sort
-#define SMALL    16
+#define SMALL	64
 
 void merge (int a[], int size, int temp[]);
 void insertion_sort (int a[], int size);
@@ -27,7 +27,7 @@ int main (int argc, char *argv[])
     }
   // Get arguments
   int size = atoi (argv[1]);	// Array size 
-  printf ("Array size = %d\n", size);
+  //printf ("Array size = %d\n", size);
   // Array allocation
   int *a = malloc (sizeof (int) * size);
   int *temp = malloc (sizeof (int) * size);
