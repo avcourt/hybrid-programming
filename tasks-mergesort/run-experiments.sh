@@ -6,9 +6,9 @@ num_tests=6         # num of different tests (threads = [2, 4, ... , 2**(num_tes
 num_runs=10         # number of runs/thread count
 num_threads=1       # init to 1
 
-for (( i = 1; i < ${num_tests} * ${num_runs}; i++ ))
+for (( i = 0; i < ${num_tests} * ${num_runs}; i++ ))
 do
-    if ! ((i % ${num_runs})); then
+    if ! ((i % ${num_runs})) && ((i > 0)); then
        num_threads=$((num_threads * 2))
     fi
        ./omp_mergesort ${arr_size} ${thresh} ${num_threads} >> omp-tasks-${num_threads}-${thresh}.txt && wait
